@@ -9,6 +9,9 @@ width: 100vw;
 .service-main {
 
 }
+p {
+  line-height: 28px;
+}
 .service-header-custom {
   padding-top: 100px;
   background-color: black ;
@@ -36,8 +39,12 @@ p {
 }
 .image-text-absolute {
   position: absolute;
-  left: 45%;
+  left: 50%;
   bottom: 35%;
+}
+.firstline-archivo {
+  font-family: 'Archivo' !important;
+
 }
 @media only screen and (max-width: 1400px) {
   .s-text .row {
@@ -53,6 +60,10 @@ p {
   }
 }
 @media only screen and (max-width: 992px) {
+  .image-text-absolute {
+    line-height: 27px !important;
+    font-size: 20px !important;
+  }
   .center-mobile {
     text-align: -webkit-center;
   }
@@ -72,4 +83,13 @@ p {
   .image-text-absolute p {
     font-size: 15px !important;
   }
+}
+@media only screen and (min-width: 1678px) {
+
+  .s-text {
+    background-size: contain !important;
+  }
+}
+.s-text {
+background-position: right;
 }

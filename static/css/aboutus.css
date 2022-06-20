@@ -1,3 +1,14 @@
+.aboutus-custom{
+  background-size: 77vw;
+}
+.exp-custom{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+
+
 .success-section {
 
   background-image: url(../img/abstract-black-fabric-background.png);

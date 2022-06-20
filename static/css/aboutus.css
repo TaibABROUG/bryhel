@@ -1,25 +1,37 @@
-.blog-h1 {
+.success-section {
+
+  background-image: url(../img/abstract-black-fabric-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-h1 {
     font-size: 51px;
   }
-.blog-top {
+  main h1 {
+   line-height: 51px;
+  }
+  .about-card-body-blog-custom h1 {
+    line-height: 35px;
+  }
+.about-top {
 position: absolute;
 background-color: transparent;
 width: 100vw;
 }
-.blog-main {
+.about-main {
 
 }
-.blog-header-custom {
+.about-header-custom {
   padding-top: 100px;
   background-color: black ;
 }
-.blog-btn-custom {
+.about-btn-custom {
   font-size: 14px;
   font-family: "archivo", sans-serif;
   text-transform: none;
   border-width: thin;
 }
-.blog-btn-prev {
+.about-btn-prev {
   background: transparent;
   color: white;
   border: none;
@@ -39,6 +51,30 @@ p {
   left: 45%;
   bottom: 35%;
 }
+
+
+.about-h1-custom {
+  font-size: 41px;
+  text-transform: uppercase;
+  padding-top: 5vh;
+  font-family: "archivo", sans-serif;
+}
+
+.about-date-custom{
+   background-color: black !important;border-radius: unset;
+}
+.about-btn-blog-custom {
+  background-color: black !important; border-radius: unset;
+}
+.about-title-blog-custom {
+  color: black !important;
+}
+.about-card-body-blog-custom {
+   padding-left: 0;
+}
+.about-img-blog-custom {
+  border-radius: unset;
+}
 @media only screen and (max-width: 1400px) {
   .s-text .row {
     padding-left: 20px;
@@ -47,16 +83,19 @@ p {
 }
 @media only screen and (min-width: 992px) {
   
-  .blog-title-custom{
+  .about-title-custom{
     color: black;
     font-size: 51px;
   }
 }
 @media only screen and (max-width: 992px) {
+  .hide-mobile {
+    display: none;
+  }
   .center-mobile {
     text-align: -webkit-center;
   }
-  .blog-title-custom{
+  .about-title-custom{
     color: black;
     font-size: 40px;
   }

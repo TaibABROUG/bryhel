@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Krona+One&display=swap" rel="stylesheet">
+    <link href="./static/css/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/prestation.css">
+    <link rel="stylesheet" href="./static/css/jquery.flipster.css">
+    <link href="https://unpkg.com/@pqina/flip/dist/flip.min.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <title>Bryhel - Services</title>
+
+
+</head>
+
+<body style="background-color: white ;">
+    <header class="service-top">
+        <div class="container-fluid pt-3" style="z-index: 999;">
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <a href="/"><img src="./static/img/svg/logo.svg" alt="logo"></a>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <button data-mdb-toggle="modal" data-mdb-target="#navmenu" class="humburg-menu mb-4"
+                        aria-controls="#navmenu" aria-haspopup="true">
+                        <img src="./static/img/svg/menu-ic.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <a href="https://app-bryhel.com/myadmin" type="button"
+                        class="btn btn-outline-light btn-rounded btn-sm me-2 service-btn-custom" data-mdb-ripple-color="dark">Login</a>
+                    <a href="https://app-bryhel.com/accounts/signup/" type="button"
+                        class="btn btn-light btn-rounded btn-sm service-btn-custom">Signup</a>
+                    <!-- <a href="/" type="button" class="ms-4"><i class="flag-france flag"></i></a>
+                    <a href="/" type="button" class="ms-2"><i class="flag-united-kingdom flag"></i></a> -->
+
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="service-main">
+        <div class="service-header service-header-custom">
+            <div class="container-fluid" style="padding-top: 5%">
+                <div class="row center-mobile" >
+                    <div class="col-lg-2 mt-3">
+                        <hr class="mt-5 mb-3 me-2" style="height: 3px; width: 250px; color: white" />
+                    </div>
+                    <div class="col-lg-7 mb-4">
+
+                        <h1 class="scroll text-white service-h1">
+                            CHOISISSEZ<br>
+                            VOS PRODUITS
+                        </h1>
+
+                    </div>
+                    <div class="col-lg-2" style="text-align: center; position: relative;">
+                        <button class="service-btn-prev" id="prev" ><i class="fa fa-angle-left" style="font-size:31px"></i></button>
+                        <button class="service-btn-prev" id="next" ><i class="fa fa-angle-right" style="font-size:31px"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="coverflow" style="margin-top:-18%">
+            <ul class="flip-items">
+                <li data-flip-title="Red">
+                    <img src="./static/img/gallery/1.png">
+                </li>
+                <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+                    <img src="./static/img/gallery/2.png">
+                </li>
+                <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                    <img src="./static/img/gallery/3.png">
+                </li>
+                <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+                    <img src="./static/img/gallery/4.png">
+                </li>
+                <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+                    <img src="./static/img/gallery/5.png">
+                </li>
+                <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+                    <img src="./static/img/gallery/6.png">
+                </li>
+                <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+                    <img src="./static/img/gallery/7.png">
+                </li>
+                
+
+
+            </ul>
+        </div>
+        <div class="s2">
+
+
+            <div class="container-fluid " style="background-color: #FCFCFC; margin-top: 20px; padding-top: 100px;">
+                <div class="row center-mobile ">
+                    <div class="col-xl-2 col-lg-12">
+                        <hr class="mt-5 mb-3 me-2" style="height: 3px; width: 250px; color: black" />
+                    </div>
+                    <div class="col-xl-4 col-lg-12 mb-4">
+
+                        <h1 class="scroll section-h1  text-uppercase service-title-custom" >
+                            nos Services <br>
+                            proffesionnels
+                        </h1>
+                        <p>Nous développons des solutions pour les petites et grandes marques, nous créons des
+                            identifiés de produits authentiques et bien plus encore.</p>
+
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-xl-4 col-lg-12 text-uppercase ">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="tick" data-value="100" data-did-init="setupFlip">
+                                <div data-repeat="true" aria-hidden="true">
+                                    <span data-view="flip"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <h5 class="d-flex pt-4  justify-content-center" style="color: black;     font-size: 20px;
+                        font-family: 'Archivo';">
+                            clients
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s-text">
+            <div class="row ms-5 me-5" style="padding-top: 10%;padding-bottom: 10% ; font-family: 'Archivo';">
+
+                <div class="col-xl-4 mb-5">
+                    <div class="card text-center" style="background-color: #f5f5f542">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-size:33px">Fabrication</h5>
+                            <p class="card-text px-4 py-4">
+                                Nos équipes de fabrication exploitent vos produits de soins de la peau selon les bonnes
+                                pratiques de fabrication afin de garantir une qualité élevée. Nous sommes fiers d'être
+                                certifiés ISO 22716:2007, ISO 13485:2016 et ISO 9001:2015. Nos équipes suivent des
+                                règles et des procédures d'hygiène strictes pour garantir des produits de la plus haute
+                                qualité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reg-center col-xl-4 mb-5">
+                    <div class="card text-center" style="background-color: #f5f5f542">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size:33px">Réglementation</h5>
+                            <p class="card-text px-4 py-4">
+                                Nous vous aidons à respecter
+                                les réglementations. Ne vous souciez plus des
+                                réglementations qui entourent
+                                vos produits cosmétiques. Nos
+                                experts se tiennent informés de
+                                toute la législation relative aux
+                                cosmétiques et anticipent toute
+                                nouvelle exigence internationale
+                                et européenne.
+                                <br> <br> <br>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4  mb-5">
+                    <div class="card text-center" style="background-color: #f5f5f542">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size:33px">Concept & Design</h5>
+                            <p class="card-text px-4 py-4">
+                                Conscients de l'importance de l'image dans le domaine des cosmétiques, nous fournissons
+                                des services de conception graphique et de branding. Chaque élément de l'emballage
+                                (matériau, couleur, forme) reflète le concept de la marque et son individualité.
+                                <br> <br> <br> <br>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s-three" id="section-3" style="height: auto; background-color: black;">
+            <div class="" style="width:100vw ;">
+                <div class=" presentation-img" style="width:100vw ; position: relative;"> 
+                     <div class="three image-text-absolute">
+                    <p class="h-41 text-uppercase" data-aos="fade-left"
+                        data-aos-duration="1000">
+                        dans un an, vous<br> regretterez de ne<br> pas avoir commenvé
+                    </p>
+                    <p class="h-41 text-uppercase text-white" data-aos="fade-up"
+                        data-aos-duration="2000"> aujourd'hui.</p>
+                </div><img src="./static/img/serviceblack.png" alt="product" style="max-width:100vw;"></div>
+
+               
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="bg-gray pt-5">
+            <div class="row g-0 mx-5" style="justify-content: space-between;">
+                <div class="col-lg-5"style="padding-right: 30px">
+                    <img src="./static/img/svg/logo-dark.svg" alt="bryhel">
+                    <p style="font-size: 21px; color:#6D6D6D" class="mt-3">
+                        Nous fournissons plus de 100 formules existantes pour la fabrication de marques de distributeur
+                        et pouvons également adapter nos formules
+                    </p>
+                    <div class="row g-0 mt-5">
+                        <div class="col-xld-6">
+                            <img src="./static/img/svg/phone.svg" alt="bryhel" class="me-2"> <span
+                                style="font-size: 20px; color:#6D6D6D">(954) 366-9429</span>
+                        </div>
+                        <div class="col-xl-6">
+                            <img src="./static/img/svg/mail.svg" alt="bryhel" class="me-2"> <span
+                                style="font-size: 20px; color:#6D6D6D">info@bryhel.com</span>
+                        </div>
+                    </div>
+                    <div class="row g-0 mt-5">
+                        <div class="col-md-2 col-4">
+                            <a href=""><img src="./static/img/svg/fb.svg" alt="bryhel" class=" fb me-2"></a>
+
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <a href=""><img src="./static/img/svg/insta.svg" alt="bryhel" class=" insta me-2"></a>
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <a href=""><img src="./static/img/svg/twitter.svg" alt="bryhel" class=" twitter me-2"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-4 mx-auto float-end" style="padding-top: 100px; font-family: 'Archivo'; padding-left: 30px;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">About us</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Features</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Our Blog</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Intergrations</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 mx-auto float-end"style="padding-top: 100px; font-family: 'Archivo'; padding-left: 30px;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Terms of Service</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Privacy  Policy</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Cookie Settings</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Community</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 mx-auto float-end"style="padding-top: 100px; font-family: 'Archivo'; padding-left: 30px;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Integrations</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Use Case</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Customers</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"
+                                        style="color:#000000; font-size:23px; font-weight: 300;">Designer</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="container mt-5">
+                <hr>
+                <p class="text-center" style="color:#858585; margin-bottom: 5%">© 2022 Copyright by BRYHEL<br><br></p>
+            </div>
+            <div class="col-md-12 bg-black" style="height:10px"></div>
+
+        </div>
+    </footer>
+
+    <div class="modal fade" id="navmenu" tabindex="-1" aria-labelledby="navmenuLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="text-center">
+                    <a type="button" data-mdb-dismiss="modal" aria-label="Close"><img
+                            src="./static/img/svg/close-ic.svg" class="model-close" alt="close"></a>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row mt-5">
+                            <div class="col-md-6">
+                                <nav style="margin-top: 20%">
+                                    <small class="text-muted">NAVIGATION</small><br>
+                                    <ul class="navbar-nav menu" style="margin-top: -20px">
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="./prestation.html" class="text-muted">Service</a></li>
+                                        <li><a href="./about-us.html">About us</a></li>
+                                        <li><a href="./blog.html">Blog</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- <div class="d-flex align-items-end ms-5" style="height:350px">hi...</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./static/js/mdb.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script type="text/javascript" src="./static/js/jquery.flipster.min.js"></script>
+    <script src="https://unpkg.com/@pqina/flip/dist/flip.min.js"></script>
+    <script>
+        var count = 4 ; 
+        AOS.init();
+        var coverflow = $("#coverflow").flipster({
+            buttons: false,
+            scrollwheel: false, 
+            style: 'flat',
+            loop: true ,
+            // style: 'flat',
+             spacing: -0.2,
+        });
+        $("#prev").click(()=>{
+            if(count !== 1 ) count--
+            coverflow.flipster('prev')
+        })
+        $("#next").click(()=>{
+            if(count !== 7 ) count++
+            coverflow.flipster('next')
+        })
+       
+        function setupFlip(tick) {
+
+            Tick.helper.interval(function () {
+                tick.value++;
+                // Set `aria-label` attribute which screenreaders will read instead of HTML content
+                tick.root.setAttribute('aria-label', tick.value);
+            }, 5000);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
